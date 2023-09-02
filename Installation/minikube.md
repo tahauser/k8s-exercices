@@ -4,7 +4,7 @@ Minikube est une solution permettant de faire tourner un cluster Kubernetes en l
 
 Depuis le lien suivant https://github.com/kubernetes/minikube/releases, vous trouverez la dernière release de Minikube et la procédure d'installation en fonction de votre environnement. 
 
-- si vous êtes sur macOS:
+- si vous êtes sur MacOS:
 
 ```
 $ curl -Lo minikube https://storage.googleapis.com/minikube/releases/latest/minikube-darwin-amd64
