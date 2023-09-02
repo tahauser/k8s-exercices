@@ -39,7 +39,9 @@ sudo microk8s.enable dns dashboard registry
 ```
 
 DNS : Déploie le service coreDNS.
+
 Tableau de bord : Déploie le service kubernetes-dashboard et plusieurs autres services qui prennent en charge cette fonctionnalité. Il s’agit d’une interface utilisateur web à usage général pour les clusters Kubernetes.
+
 Registre : Déploie un registre privé et plusieurs services qui prennent en charge cette fonctionnalité. Pour stocker des conteneurs privés, utilisez ce registre.
 
 
