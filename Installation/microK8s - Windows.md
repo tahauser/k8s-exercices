@@ -7,10 +7,28 @@ Canonical, le créateur de Linux Ubuntu, en est à l’origine et fait la mainte
 
 Vous pouvez installer MicroK8s sur Linux, Windows et MacOS.
 
-### Création d'une VM Ubuntu
-
-Utilisez la commande suivante pour créer une VM Ubuntu 18.04 avec Multipass, cela ne prendra que quelques dizaines de secondes:
-
+### Installer sur Windows
+Pour exécuter MicroK8s sur Windows, utilisez Multipass. 
+Multipass est un gestionnaire de machines virtuelles léger pour Linux, Windows et MacOS.
+Télécharger et installer Multipass https://multipass.run
+```
+multipass launch --name microk8s-vm --mem 1G --disk 4G
+```
+```
+multipass list
 ```
 
+Une fois que vous avez reçu la confirmation du lancement pour microk8s-vm, exécutez la commande suivante pour accéder à cette instance :
+```
+multipass shell microk8s-vm
+```
+
+Installez l’application Snap MicroK8s
+```
+sudo snap install microk8s --classic
+```
+
+Pour vérifier l’état de l’installation, exécutez la commande
+```
+sudo microk8s.status --wait-ready
 ```
