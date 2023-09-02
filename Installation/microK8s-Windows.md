@@ -1,4 +1,4 @@
-![image](https://github.com/tahauser/k8s-exercices/assets/90762839/d02027bb-b4b4-47c8-b486-f9760306cfd7)MicroK8s sous Windows
+MicroK8s sous Windows
 
 ### Quésaco ?
 MicroK8s est une option pour déployer un cluster Kubernetes à un seul nœud en tant que package unique pour cibler des stations de travail et des appareils IoT (Internet of Things).
